@@ -40,7 +40,7 @@ if (isset($_GET['delete'])) {
                         <tr>
                             <td><?php echo $key + 1 ?></td>
                             <td><?php echo $service['name'] ?></td>
-                            <td><?php echo $service['price'] ?></td>
+                            <td>Rp. <?php echo $service['price'] ?></td>
                             <td><?php echo $service['description'] ?></td>
                             <td>
                                 <a class="btn btn-success btn-sm" href="?page=tambah-service&edit=<?php echo $service['id'] ?>">

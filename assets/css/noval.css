@@ -87,3 +87,15 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
 }
+
+.service-card:hover {
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+
+
+.btn-clear-cart {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
